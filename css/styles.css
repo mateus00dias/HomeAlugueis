@@ -454,12 +454,14 @@ footer .last {
   }
   .right {
     width: 90%;
+    text-align: justify;
   }
 
   .right p {
     width: 100%;
     margin: 0px;
-    text-align: left;
+    text-align: justify;
+    
   }
 
   .features {
