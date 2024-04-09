@@ -134,6 +134,21 @@ nav ul button:hover {
 
 /* Section Home */
 
+.filter-search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-card {
+  width: calc(50% - 10px); /* 50% do espaço, menos a margem */
+}
+
+.filter-options {
+  width: calc(50% - 10px); /* 50% do espaço, menos a margem */
+}
+
 section .home {
   width: 100vw;
   padding: 100px;

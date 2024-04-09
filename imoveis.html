@@ -26,14 +26,33 @@
         <div class="title-wrapper-catalog">
           <h3>Catalago</h3>
         </div>
-        <div class="filter-card">
-          <input
-            type="text"
-            class="search-input"
-            placeholder="Filtre sua Busca"
-          />
-          <button class="search-button">Buscar</button>
+        <div class="filter-search-wrapper">
+          <div class="filter-card">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Filtre sua Busca"
+            />
+            <button class="search-button">Buscar</button>
+          </div>
+          <div class="filter-options">
+            <select id="filter-select">
+              <option value="todos">Todos</option>
+              <option value="casa">Casa</option>
+              <option value="apartamento">Apartamento</option>
+              <option value="apartamento">Comercial</option>
+              <!-- Adicione mais opções de filtro conforme necessário -->
+            </select>
+
+            <select id="sort-select">
+              <option value="maior">Preço Maior</option>
+              <option value="menor">Preço Menor</option>
+              <option value="maior">Preço Maior</option>
+            </select>
+            <button id="sort-button">Ordenar</button>
+          </div>
         </div>
+
         <div class="card-wrapper">
           <div class="card-item">
             <img src="images/casa.png" alt="Car" />
@@ -158,5 +177,6 @@
       </div>
       <div class="last">Home Imoveis 2024 </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
